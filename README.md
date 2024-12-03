@@ -1,8 +1,11 @@
-# React + Vite
+## Travel Journal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple react website which uses react-router-dom to form an multpage application
 
-Currently, two official plugins are available:
+<img width="1279" alt="image" src="https://github.com/user-attachments/assets/30f4df09-211b-4aec-be08-fef38fb6216f">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1275" alt="image" src="https://github.com/user-attachments/assets/b0ef6ee3-44eb-4424-8ed0-790fd6848b3a">
+
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/2cfae331-1bd2-4227-bf58-8ab5cfcb00ec">
+
+![image](https://github.com/user-attachments/assets/0dc47481-fcf0-4383-92ac-0a72390047ea)
