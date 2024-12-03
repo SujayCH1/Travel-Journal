@@ -1,0 +1,171 @@
+.Timeline {
+    padding: 60px 5%;
+    background-color: #EEEEEE;
+    min-height: calc(100vh - 70px);
+    margin-top: 70px;
+}
+
+.vertical-timeline {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+}
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    width: 3px;  /* Made slightly thinner to match smaller circles */
+    background-color: salmon;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 8px rgba(250, 128, 114, 0.3);
+}
+
+.vertical-timeline-element {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.vertical-timeline-element-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    width: calc(50% - 30px);  /* Adjusted width for smaller gap */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vertical-timeline-element-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+    float: left;
+    clear: left;
+}
+
+.vertical-timeline-element:nth-child(even) .vertical-timeline-element-content {
+    float: right;
+    clear: right;
+}
+
+.vertical-timeline-element-content h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.vertical-timeline-element-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.vertical-timeline-element-date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+    background-color: rgba(255, 182, 182, 0.2);
+    padding: 8px 16px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.vertical-timeline-element-date:hover {
+    background-color: salmon;
+    color: white;
+    transform: translateY(-50%) scale(1.05);
+}
+
+.vertical-timeline-element:nth-child(odd) .vertical-timeline-element-date {
+    right: calc(-50% - 60px);  /* Adjusted for smaller circle */
+}
+
+.vertical-timeline-element:nth-child(even) .vertical-timeline-element-date {
+    left: calc(-50% - 60px);  /* Adjusted for smaller circle */
+}
+
+.vertical-timeline-element-icon {
+    background-color: salmon !important;
+    color: white !important;
+    width: 24px !important;  /* Smaller circle size */
+    height: 24px !important;  /* Smaller circle size */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 3px white, 0 0 0 6px rgba(250, 128, 114, 0.2);  /* Adjusted border thickness */
+    transition: transform 0.3s ease;
+}
+
+.vertical-timeline-element-icon:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.vertical-timeline-element-content::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 16px;  /* Slightly smaller arrow */
+    height: 16px;  /* Slightly smaller arrow */
+    background-color: white;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content::before {
+    right: -8px;
+}
+
+.vertical-timeline-element:nth-child(even) .vertical-timeline-element-content::before {
+    left: -8px;
+}
+
+/* Optional: Add image styling if your timeline includes images */
+.vertical-timeline-element-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------------------------------------------- */
+
+.Timeline {
+    padding: 60px 5%;
+    background-color: #EEEEEE;
+    min-height: calc(100vh - 70px);
+}
+
+.timeline-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.timeline-country {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+}
