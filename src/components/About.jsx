@@ -8,8 +8,8 @@ const About = () => {
       <div className='aboutContent'>
         <h1>About <span>Us</span></h1>
         <div className='aboutText'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo quasi perferendis maiores, accusamus optio veritatis expedita aspernatur sed alias molestias beatae hic, eius voluptates harum iste rem itaque nobis iusto. Sapiente eaque libero, animi fugiat repellendus molestias illum nisi sunt.</p>
-          <p>Reprehenderit nihil modi reiciendis quidem eius sunt, impedit, dolorem hic itaque eaque quas cupiditate sequi cum ratione architecto perspiciatis quam odio atque optio omnis quasi consequuntur. Architecto, amet inventore. Magni quos ipsum dolor corrupti, iste maiores!</p>
+          <p>We believe that travel is more than just moving from one place to another; it's about experiencing new cultures, making memories, and finding inspiration in the world around us. This platform is designed for wanderers, adventurers, and storytellers to document their travels, reflect on their experiences, and celebrate the joy of exploration.</p>
+          <p>Whether you're embarking on a solo adventure, a family trip, or a journey with friends, our journal helps you capture every moment. From stunning landscapes to hidden gems, and from bustling cities to tranquil escapes, our timeline and diary features make it easy to preserve your memories and share them with others!</p>
         </div>
       </div>
       <div className='aboutImage'> 
